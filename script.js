@@ -11,7 +11,7 @@ const randomFacts = () => {
       "good liars are also the good ones in detecting lies from others",
       "the length of your tongue tells something about your sexual curiosity"
     ],
-    wierd : [
+    weird : [
       "fear can feel good—if we're not really in danger",
       "we'd rather know something bad is coming than not know what to expect",
       "our brains try to make boring speeches more interesting",
@@ -52,7 +52,7 @@ const randomFacts = () => {
       "power makes people care less about others"
     ],
     randomAdj (){
-      const adjectives = ['funny', 'wierd', 'exciting', 'surprising', 'awful'];
+      const adjectives = ['funny', 'weird', 'exciting', 'surprising', 'awful'];
       return adjectives[Math.floor(Math.random() * 5)];
     },
     chooseFact () {
@@ -62,8 +62,8 @@ const randomFacts = () => {
         case 'funny':
           return `isn't ${adjective} that \n${this.funny[randomNum]}`;
           break;
-        case 'wierd':
-          return `isn't ${adjective} that \n${this.wierd[randomNum]}`;
+        case 'weird':
+          return `isn't ${adjective} that \n${this.weird[randomNum]}`;
           break;
         case 'exciting':
           return `isn't ${adjective} that \n${this.exciting[randomNum]}`;
@@ -79,7 +79,11 @@ const randomFacts = () => {
     
   }
 };
-var random_facts = randomFacts();
-console.log(random_facts.chooseFact());
+function runProgram(){
+  var random_facts = randomFacts();
+  console.log(random_facts.chooseFact());
+};
+runProgram();
+
 
 
