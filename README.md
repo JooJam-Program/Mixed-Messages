@@ -7,9 +7,9 @@ The name of the project is pretty self-explanatory, it's about logging to the co
 ***
 Built with
 --------
-+JavaScript
-+Vscode
-+Node.js
+-JavaScript
+-Vscode
+-Node.js
 ***
 Getting Started:
 ---
