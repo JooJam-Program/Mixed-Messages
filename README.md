@@ -17,6 +17,6 @@ Built with
 Getting Started:
 ---
 1.**Installation:**:
-you can clone this project but make sure you have node.js installed on your computer, if you don't you can download the right version for you OS from [here](https://nodejs.org/en/download/).
+you can clone this project but make sure you have node.js installed on your computer, if you don't you can download the right version for you OS from [here](https://nodejs.org/en/download/).<br>
 2.**Contact:**
 Jamil Joo - **JamilJooContact@gmail.com** - @jamil_Joo
